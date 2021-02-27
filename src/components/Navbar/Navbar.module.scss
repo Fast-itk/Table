@@ -1,0 +1,41 @@
+@import "../../style/variables.scss";
+
+.Navbar {
+    width: 100%;
+    padding: 0 40px;
+    background: $black;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: $primary;
+    text-transform: uppercase;
+}
+
+.logo > h1 {
+    margin: 0;
+}
+
+.list {
+    display: flex;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: .4s;
+
+    &:hover {
+        opacity: .8;
+    }
+}
+
+.link > li {
+    list-style: none;
+}
+
+.activeLink {
+    opacity: .7;
+}

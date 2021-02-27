@@ -1,0 +1,9 @@
+@import "../../style/variables.scss";
+
+.Home {
+    color: $black;
+}
+
+.Home > h2 {
+    text-align: center;
+}

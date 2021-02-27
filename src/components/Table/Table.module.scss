@@ -1,0 +1,60 @@
+@import "../../style/variables.scss";
+
+.Table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    border-bottom: 2px solid $black;
+}
+
+tbody {
+    text-align: center;
+}
+
+tbody > tr {
+    border-bottom: 1px solid $grey;
+}
+
+th {
+    font-size: 18px;
+
+    &:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+tr > td, th {
+    padding: 12px 0;
+}
+
+.arrowsWrapper {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.arrow {
+    font-size: 12px;
+    margin-left: 5px;
+    color: $primary;
+    opacity: .5;
+    cursor: pointer;
+    transition: .3s;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.arrowActive {
+    opacity: 1;
+}
+
+
+
+
+

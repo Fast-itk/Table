@@ -1,0 +1,28 @@
+@import "../../style/variables.scss";
+
+.TablePages {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.tableNav {
+    padding: 5px 10px 7px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: $primary;
+    border: 2px solid $primary;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+
+    &:hover {
+        color: #fff;
+        background: $primary;
+    }
+}
+
+.tableNavActive {
+    color: #fff;
+    background: $primary;
+}
